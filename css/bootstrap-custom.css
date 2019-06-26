@@ -1,1 +1,7 @@
-bootstrap-custom.css
+.container-fluid {
+	width: 100%;
+	padding-left: 12.7vw;
+	padding-right: 12.7vw;
+	margin-right: auto;
+	margin-left: auto;
+}
