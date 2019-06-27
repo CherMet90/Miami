@@ -10,7 +10,6 @@ a {
 a:hover {
 	color: #ffffff;
 	text-decoration: none;
-	border-bottom: 1px dashed #ffffff;
 }
 
 .navbar {
@@ -18,13 +17,15 @@ a:hover {
 	border-radius:10px;
 }
 
-.navbar-light .navbar-toggler {
-	color:#fff;
-  background-color:blue;
-  background-image: -moz-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
-  background-image: -webkit-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
-  background-image: -o-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
-}
 .navbar-toggler:hover {
 	box-shadow: 0 0 10px 3px rgba(100,125,165,0.4);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+
+.nav-link {
+	text-align: center;
 }
