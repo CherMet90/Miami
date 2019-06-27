@@ -1,19 +1,30 @@
 .container-fluid {
-	width: 100%;
 	padding-left: 12.7vw;
 	padding-right: 12.7vw;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 a {
 	color: #ffffff;
-	text-decoration: none;
-	background-color: transparent;
 }
 
 a:hover {
 	color: #ffffff;
 	text-decoration: none;
 	border-bottom: 1px dashed #ffffff;
+}
+
+.navbar {
+	padding: 0;
+	border-radius:10px;
+}
+
+.navbar-light .navbar-toggler {
+	color:#fff;
+  background-color:blue;
+  background-image: -moz-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
+  background-image: -webkit-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
+  background-image: -o-linear-gradient(#082567, #6c92af 50%, #6c92af 20%, #0a0e3b);
+}
+.navbar-toggler:hover {
+	box-shadow: 0 0 10px 3px rgba(100,125,165,0.4);
 }
