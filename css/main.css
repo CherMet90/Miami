@@ -10,18 +10,23 @@ header {
 	padding-bottom: 8.24vh;
 }
 
-/*.header__top-line {
-	margin-top: 7.19vh;
-}*/
-
-.top-line--item a {
-	display: block;
+.top-line__logo {
 	background-image: url(../img/logo.png);
 	width: 115px;
 	min-height: 76px;
-	margin: auto;
 }
 
-.top-line--item:nth-child(2) {
-	min-width: 115px;
+.top-line__logo:hover {
+	border-bottom: 0px;
 }
+
+.top-line--item:not(:first-child) {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 36px;
+	font-size: 16px;
+}
+
+
+

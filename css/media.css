@@ -1,1 +1,5 @@
-media.css
+@media screen and (min-width: 1260px) {
+  .container-fluid {
+  	padding-left: 160px;
+		padding-right: 160px;
+  }

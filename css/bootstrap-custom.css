@@ -5,3 +5,15 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px dashed #ffffff;
+}
