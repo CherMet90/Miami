@@ -1,5 +1,6 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
 }
 
 header {
@@ -43,16 +44,48 @@ header {
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.description {
+	min-height: 100vh;
+}
+
 .description__title {
   font-size: 48px;
   text-transform: uppercase;
   line-height: 60px;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 .description__title>span {
 	font-weight: 300;
 }
 
+strong {
+	font-weight: 500;
+}
+
 .bluetext {
 	color: #00aaef;
+}
+
+.description__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  max-width: 540px;
+	margin: auto;
+}
+
+.description__text p {
+	margin-bottom: 35px;
+}
+
+.description__text ol {
+	line-height: 18px;
+	margin-bottom: 35px;
+}
+
+.description__text li {
+	margin: 5px 0;
 }

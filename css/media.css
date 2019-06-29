@@ -3,3 +3,8 @@
   	padding-left: 160px;
 		padding-right: 160px;
   }
+
+@media screen and (min-width: 992px) {
+  .description__text {
+  	margin-right: 0;
+  }
