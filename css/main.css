@@ -8,7 +8,7 @@ header {
 	background-position: top;
 	-webkit-background-size: cover;
 	background-size: cover;
-	max-width: 1260px;
+	/*max-width: 1260px;*/
 	height: 100vh;
 	padding-top: 7.19vh;
 	padding-bottom: 8.24vh;
@@ -43,5 +43,16 @@ header {
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.description__title {
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 60px;
+}
 
+.description__title>span {
+	font-weight: 300;
+}
 
+.bluetext {
+	color: #00aaef;
+}
